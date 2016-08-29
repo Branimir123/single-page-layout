@@ -1,0 +1,127 @@
+/*Custom navbar styles*/
+.navbar-inverse {
+    /* IE10+ */
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 20%, #000000 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 20%, #000000 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(bottom, #FFFFFF 20%, #000000 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20, #FFFFFF), color-stop(100, #000000));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 20%, #000000 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to top, #FFFFFF 20%, #000000 100%);
+    display: none;
+}
+.nav li {
+    width: 7em;
+}
+.navbar-inverse .navbar-nav> .active> a, .navbar-inverse .navbar-nav> .open> a {
+    background-image: none;
+    box-shadow: none;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: rgba(0, 0, 0, 0.0);
+    text-decoration: underline;
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar-inverse {
+    background-image: none;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-image: none;
+    background-color: black;
+}
+.navbar-inverse {
+    border-color: rgba(0, 0, 0, 0.0)
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFFFFF;
+}
+.dropdown-menu>li>a {
+    color: #ffffff;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #ffffff;
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #ffffff;
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+#menu-first:hover~ hr {
+    margin-left: 0%;
+}
+#menu-second:hover~ hr {
+    margin-left: 20%;
+}
+#menu-third:hover~ hr {
+    margin-left: 40%;
+}
+#menu-fourth:hover~ hr {
+    margin-left: 60%;
+}
+#menu-fifth:hover~ hr {
+    margin-left: 80%;
+}
+
+/*Menu transition styles*/
+
+.nav-top {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#090909+0,121212+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(9, 9, 9, 1) 0%, rgba(18, 18, 18, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(9, 9, 9, 1) 0%, rgba(18, 18, 18, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(9, 9, 9, 1) 0%, rgba(18, 18, 18, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#090909', endColorstr='#00121212', GradientType=0);
+    /* IE6-9 */
+    border-bottom: 0px;
+}
+.nav-middle {
+    background: rgba(0, 0, 0, 0.9);
+}
+.nav-bottom {
+    background: rgba(0, 0, 0, 0.9);
+}
