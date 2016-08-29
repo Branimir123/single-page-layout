@@ -8,13 +8,12 @@ var bottomOfDiv = $("#go-to-first").position().top;
 $('html, body').removeClass('unlock-scroll').addClass('lock-scroll');
 //When all contents are loaded
 $(window).ready(function() {
-    //timeOut to test the loading animation
-    window.setTimeout(function() {
-        $('html, body').removeClass('lock-scroll').addClass('unlock-scroll');
-        $('#loading').hide();
-        $('.navbar-inverse').show();
-        $(".navbar-inverse").addClass('nav-top');
-    }, 500);
+
+    $('html, body').removeClass('lock-scroll').addClass('unlock-scroll');
+    $('#loading').hide();
+    $('.navbar-inverse').show();
+    $(".navbar-inverse").addClass('nav-top');
+
 });
 //When document is ready attach behaviour
 $(document).ready(function() {
